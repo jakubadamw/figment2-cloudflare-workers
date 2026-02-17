@@ -1,0 +1,10 @@
+name = "test-worker"
+main = "build/worker/shim.mjs"
+compatibility_date = "2026-01-20"
+
+[build]
+command = "worker-build --release"
+
+[vars]
+API_BASE_URL = "https://api.example.com/v1"
+MAX_RETRIES = "3"
